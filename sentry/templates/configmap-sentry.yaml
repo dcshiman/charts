@@ -58,7 +58,6 @@ data:
     slack.verification-token: "{{ .Values.slack.verificationToken }}"
     slack.legacy-app: "{{ .Values.slack.legacyApp }}"
     {{ end }}
-    {{ end }}
 
     ################
     #    Redis     #
